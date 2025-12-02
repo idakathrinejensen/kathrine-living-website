@@ -42,19 +42,19 @@ export function ContactPage() {
     {
       icon: <Mail className="w-6 h-6" />,
       label: 'Email',
-      value: 'aki@kathrineliving.dk',
-      link: 'mailto:aki@kathrineliving.dk',
+      value: 'akj@kathrineliving.dk',
+      link: 'mailto:akj@kathrineliving.dk',
     },
     {
       icon: <Phone className="w-6 h-6" />,
       label: 'Telefon',
-      value: '+45 44 70 70 48',
-      link: 'tel:+4544707048',
+      value: '+45 29 44 70 48',
+      link: 'tel:+4529447048',
     },
     {
       icon: <MapPin className="w-6 h-6" />,
       label: 'Adresse',
-      value: 'St. Strandamsvej 5, 3400 Hillerød',
+      value: 'St. Stendamsvej 5, 3400 Hillerød',
       link: 'https://maps.google.com',
     },
   ];
@@ -63,12 +63,12 @@ export function ContactPage() {
     {
       icon: <Instagram className="w-6 h-6" />,
       label: 'Instagram',
-      link: 'https://instagram.com',
+      link: 'https://www.instagram.com/kathrineliving/',
     },
     {
       icon: <Facebook className="w-6 h-6" />,
       label: 'Facebook',
-      link: 'https://facebook.com',
+      link: 'https://www.facebook.com/Kathrineliving',
     },
   ];
 

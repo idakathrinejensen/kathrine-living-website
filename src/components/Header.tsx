@@ -42,14 +42,16 @@ export function Header() {
     >
       <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
         <Link to="/" className="flex items-center gap-3 group">
-          <motion.div
-            className="text-2xl tracking-tight"
-            whileHover={{ scale: 1.02 }}
+          <motion.img
+            src="/assets/Kathrine_Living_logo_neg.png"
+            alt="Kathrine Living logo"
+            className="h-24 w-auto transition-all"
+            whileHover={{ scale: 1.03 }}
             transition={{ duration: 0.3 }}
-          >
-            <span style={{ color: isScrolled ? 'var(--accent)' : 'white' }}>Kathrine</span>
-            <span className={isScrolled ? 'text-gray-400' : 'text-white/70'} style={{ marginLeft: '0.25rem' }}>Living</span>
-          </motion.div>
+            style={{
+              filter: isScrolled ? 'invert(1)' :'invert(0)',
+            }}
+          />
         </Link>
 
         {/* Desktop Navigation */}
